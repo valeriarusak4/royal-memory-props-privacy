@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Royal: Memory Props. Information about local game saves, optional photos, permissions, deletion and support.">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+
+  <title>Privacy Policy | Royal: Memory Props</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+
+      --night: #140b25;
+      --deep: #251238;
+      --panel: #2a183d;
+      --raised: #39234f;
+      --wine: #762947;
+      --gold: #f0bc47;
+      --soft-gold: #ffe0a0;
+      --ivory: #fff2d9;
+      --lavender: #ccbcd9;
+
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--lavender);
+      background: var(--night);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-width: 280px;
+      min-height: 100vh;
+
+      background:
+        radial-gradient(
+          ellipse at 0 0,
+          rgba(118, 41, 71, 0.42),
+          transparent 45%
+        ),
+        radial-gradient(
+          ellipse at 100% 20%,
+          rgba(104, 56, 155, 0.22),
+          transparent 45%
+        ),
+        linear-gradient(
+          160deg,
+          var(--night),
+          var(--deep)
+        );
+    }
+
+    main {
+      width: min(calc(100% - 40px), 880px);
+      margin: 48px auto;
+      overflow: hidden;
+
+      border: 1px solid rgba(240, 188, 71, 0.4);
+      border-radius: 26px;
+
+      background: linear-gradient(
+        160deg,
+        var(--panel),
+        var(--deep)
+      );
+
+      box-shadow: 0 24px 80px rgba(8, 5, 16, 0.55);
+    }
+
+    header {
+      position: relative;
+      padding: 42px 40px 34px;
+
+      border-bottom: 1px solid rgba(240, 188, 71, 0.24);
+
+      background:
+        radial-gradient(
+          ellipse at 50% 0,
+          rgba(240, 188, 71, 0.12),
+          transparent 70%
+        ),
+        linear-gradient(
+          135deg,
+          var(--wine),
+          var(--panel) 65%
+        );
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 3px;
+
+      background: linear-gradient(
+        90deg,
+        transparent,
+        var(--gold),
+        var(--soft-gold),
+        var(--gold),
+        transparent
+      );
+    }
+
+    .ornament {
+      margin: 0 0 12px;
+      color: var(--soft-gold);
+      font-size: 1.5rem;
+      letter-spacing: 0.3em;
+    }
+
+    .brand {
+      margin: 0 0 10px;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    h1,
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--soft-gold);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 3.2rem);
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.4rem;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    strong {
+      color: var(--ivory);
+    }
+
+    .date {
+      margin-top: 18px;
+      font-size: 0.9rem;
+    }
+
+    .summary {
+      margin: 28px 40px;
+      padding: 20px 24px;
+
+      border: 1px solid rgba(240, 188, 71, 0.3);
+      border-left: 4px solid var(--gold);
+      border-radius: 14px;
+
+      background: linear-gradient(
+        120deg,
+        rgba(118, 41, 71, 0.45),
+        rgba(57, 35, 79, 0.7)
+      );
+    }
+
+    .summary p {
+      margin: 0;
+    }
+
+    .summary strong {
+      color: var(--soft-gold);
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      padding: 0 40px 28px;
+      border-bottom: 1px solid rgba(240, 188, 71, 0.18);
+    }
+
+    a {
+      color: var(--soft-gold);
+      text-underline-offset: 4px;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--ivory);
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 4px;
+      border-radius: 3px;
+    }
+
+    nav a {
+      display: inline-flex;
+      align-items: center;
+
+      min-height: 44px;
+      padding: 8px 15px;
+
+      border: 1px solid rgba(240, 188, 71, 0.32);
+      border-radius: 999px;
+
+      background: var(--raised);
+      color: var(--ivory);
+
+      font-size: 0.88rem;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      border-color: var(--gold);
+      background: var(--wine);
+    }
+
+    section {
+      margin: 0 40px;
+      padding: 28px 0;
+
+      border-bottom: 1px solid rgba(240, 188, 71, 0.16);
+      scroll-margin-top: 24px;
+    }
+
+    section:last-of-type {
+      border-bottom: 0;
+    }
+
+    section p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 16px 0;
+      padding-left: 24px;
+    }
+
+    li + li {
+      margin-top: 12px;
+    }
+
+    li::marker {
+      color: var(--gold);
+    }
+
+    footer {
+      padding: 20px 40px;
+      border-top: 1px solid rgba(240, 188, 71, 0.24);
+
+      background: rgba(20, 11, 37, 0.6);
+      color: var(--lavender);
+
+      font-size: 0.85rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: calc(100% - 24px);
+        margin: 12px auto;
+        border-radius: 20px;
+      }
+
+      header {
+        padding: 28px 22px;
+      }
+
+      .brand {
+        font-size: 1.2rem;
+      }
+
+      h2 {
+        font-size: 1.22rem;
+      }
+
+      .summary {
+        margin: 22px;
+        padding: 18px;
+      }
+
+      nav {
+        padding: 0 22px 22px;
+        gap: 8px;
+      }
+
+      nav a {
+        padding: 8px 12px;
+      }
+
+      section {
+        margin: 0 22px;
+        padding: 24px 0;
+      }
+
+      footer {
+        padding: 20px 22px;
+      }
+    }
+
+    @media print {
+      :root {
+        color-scheme: light;
+      }
+
+      * {
+        color: #000 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+
+      main {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+      }
+
+      header,
+      footer {
+        padding: 16px 0;
+      }
+
+      section {
+        margin: 0;
+        padding: 16px 0;
+      }
+
+      .summary {
+        margin: 16px 0;
+        border-color: #999;
+      }
+
+      nav,
+      .ornament {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p class="ornament" aria-hidden="true">✦ ☾ ✦</p>
+      <p class="brand">Royal: Memory Props</p>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="date">
+        Effective date and last updated:
+        <time datetime="2026-10-20">October 20, 2026</time>
+      </p>
+
+      <p>
+        This policy explains how the developer of Royal: Memory Props
+        handles information when you use the iOS app, contact support
+        or visit this policy page.
+      </p>
+    </header>
+
+    <aside class="summary" aria-label="Privacy summary">
+      <p>
+        <strong>
+          Your game progress and personal poster are processed
+          and saved on your device.
+        </strong>
+        The app does not upload them to the developer. It has no
+        account registration, advertising SDKs or third-party
+        analytics SDKs. Optional support emails and visits to this
+        website are described separately below.
+      </p>
+    </aside>
+
+    <nav aria-label="Policy sections">
+      <a href="#local-data">Local data</a>
+      <a href="#photos">Photos and camera</a>
+      <a href="#deletion">Deletion</a>
+      <a href="#website">This website</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="local-data" aria-labelledby="local-data-title">
+      <h2 id="local-data-title">
+        1. Information handled on your device
+      </h2>
+
+      <p>
+        The app stores the following information in its local app
+        storage to provide its features:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Game progress:</strong>
+          completed levels, scores, stars, best times, unlocked
+          collectible props, tutorial status and the current attempt
+          needed to resume a show.
+        </li>
+
+        <li>
+          <strong>Preferences:</strong>
+          music, sound effects, haptics and reduced-motion settings.
+        </li>
+
+        <li>
+          <strong>Optional personal poster:</strong>
+          a processed copy of the photo you choose or take, together
+          with your caption, selected poster style and decorative props.
+        </li>
+      </ul>
+
+      <p>
+        This information is used to save your progress, remember your
+        preferences and create your personal poster. The app does not
+        send it to the developer or to an app-operated server.
+        The developer cannot view your locally stored photos,
+        poster or game saves.
+      </p>
+    </section>
+
+    <section id="photos" aria-labelledby="photos-title">
+      <h2 id="photos-title">
+        2. Photos, camera and optional permissions
+      </h2>
+
+      <p>
+        Creating a personal poster is optional. You can play the game
+        without providing a photo or granting camera access.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Photo selection:</strong>
+          the app uses Apple's system photo picker and receives the
+          image you select, rather than browsing your entire photo library.
+        </li>
+
+        <li>
+          <strong>Camera:</strong>
+          camera permission is requested when you choose the Camera
+          option to take a photo for your poster.
+        </li>
+
+        <li>
+          <strong>Photo processing:</strong>
+          resizing and cropping take place on your device. The app does
+          not perform facial recognition or biometric identification.
+        </li>
+      </ul>
+
+      <p>
+        You can change camera permission in iOS Settings. Revoking
+        permission prevents future camera access; it does not
+        automatically delete a photo already saved in your personal
+        poster. You can delete that poster using the controls
+        described below.
+      </p>
+    </section>
+
+    <section id="tracking" aria-labelledby="tracking-title">
+      <h2 id="tracking-title">
+        3. Advertising, tracking and third-party SDKs
+      </h2>
+
+      <p>
+        The app does not include advertising networks, third-party
+        analytics SDKs or tracking SDKs. It does not access your
+        advertising identifier, track you across other companies'
+        apps or websites, sell your information or share your local
+        game and poster data with advertisers.
+      </p>
+
+      <p>
+        Apple may separately process information for the App Store,
+        operating-system services or diagnostics according to your
+        Apple privacy settings and
+        <a href="https://www.apple.com/legal/privacy/" rel="noreferrer">
+          Apple's Privacy Policy
+        </a>.
+      </p>
+    </section>
+
+    <section id="deletion" aria-labelledby="deletion-title">
+      <h2 id="deletion-title">
+        4. Storage, retention and deletion
+      </h2>
+
+      <p>
+        Local data remains in the app's storage until you change it,
+        reset it, delete the relevant content or delete the app.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Delete your poster:</strong>
+          use the delete control in the personal poster editor to
+          remove the saved poster photo and its associated poster
+          information from the app.
+        </li>
+
+        <li>
+          <strong>Reset game progress:</strong>
+          use the reset controls in the app's Settings. If a poster
+          exists, you can choose whether to keep it or delete it with
+          the game progress. Resetting game progress preserves
+          your preferences.
+        </li>
+
+        <li>
+          <strong>Remove local app storage:</strong>
+          use Delete App in iOS. Offloading the app is different and
+          may retain its documents and data.
+        </li>
+      </ul>
+
+      <p>
+        Deleting a poster does not delete the original photo from
+        your photo library. Any copies you keep outside the app must
+        be managed separately.
+      </p>
+
+      <p>
+        Depending on your device and backup settings, iOS may include
+        app data in device backups. The app does not operate its own
+        cloud account or cloud-sync service. Manage device backups
+        through your Apple settings; deleting local content does not
+        necessarily remove existing backup copies.
+      </p>
+    </section>
+
+    <section id="support" aria-labelledby="support-title">
+      <h2 id="support-title">
+        5. Information you send to support
+      </h2>
+
+      <p>
+        If you voluntarily email
+        <a href="mailto:valeriarusak4@gmail.com">
+          valeriarusak4@gmail.com
+        </a>,
+        the developer receives your email address and any message,
+        attachments or other information you choose to include.
+        This information is used to answer your request and resolve
+        the issue you report, not for advertising.
+      </p>
+
+      <p>
+        Support correspondence is retained only for as long as needed
+        to handle your inquiry and meet applicable legal obligations.
+        You may request deletion of support correspondence by
+        emailing the same address. Email delivery and storage also
+        involve your email provider and the recipient's email provider
+        under their own privacy practices.
+      </p>
+
+      <p>
+        Please send only information needed to explain your request.
+        The developer cannot remotely retrieve or erase data stored
+        solely inside the app on your device.
+      </p>
+    </section>
+
+    <section id="website" aria-labelledby="website-title">
+      <h2 id="website-title">
+        6. Hosting of this policy page
+      </h2>
+
+      <p>
+        This page is hosted on GitHub Pages. GitHub states that it
+        logs and stores visitors' IP addresses for security purposes,
+        including visits made without signing in. This hosting
+        activity is separate from the app's local processing of
+        game data and photos.
+      </p>
+
+      <p>
+        This page does not add analytics scripts, advertising
+        trackers, contact forms or embedded third-party content.
+        For GitHub's handling of hosting information, see
+        <a
+          href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+          rel="noreferrer"
+        >
+          GitHub Pages data collection
+        </a>
+        and the
+        <a
+          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          rel="noreferrer"
+        >
+          GitHub General Privacy Statement
+        </a>.
+      </p>
+    </section>
+
+    <section id="children" aria-labelledby="children-title">
+      <h2 id="children-title">
+        7. Children's privacy
+      </h2>
+
+      <p>
+        The app does not require an account or ask users to provide
+        their age, contact details or a public profile. Its local game
+        and poster processing applies regardless of the user's age.
+        Parents and guardians can manage camera permissions, photos
+        and app storage through the device settings and the controls
+        described in this policy.
+      </p>
+
+      <p>
+        If you have a concern about information a child has sent to
+        support, please contact the developer.
+      </p>
+    </section>
+
+    <section id="choices" aria-labelledby="choices-title">
+      <h2 id="choices-title">
+        8. Your choices and privacy requests
+      </h2>
+
+      <p>
+        You can choose not to use the photo feature, change available
+        permissions, delete a poster or reset local progress.
+        For questions or requests concerning information held by the
+        developer, such as support correspondence, use the contact
+        address below. Applicable privacy rights depend on your
+        location and the information involved; requests will be
+        handled in accordance with applicable law.
+      </p>
+    </section>
+
+    <section id="changes" aria-labelledby="changes-title">
+      <h2 id="changes-title">
+        9. Changes to this policy
+      </h2>
+
+      <p>
+        This policy may be updated to reflect changes to the app or
+        its information handling. Any updated policy will be
+        published on this page with a revised effective date.
+        If a future feature requires additional permissions or
+        consent, those will be requested as required.
+      </p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">
+        10. Contact
+      </h2>
+
+      <p>
+        For app support or privacy questions about Royal: Memory Props,
+        contact the developer at
+        <a href="mailto:valeriarusak4@gmail.com">
+          valeriarusak4@gmail.com
+        </a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Royal: Memory Props &middot; Privacy Policy &middot;
+        Updated October 20, 2026
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
